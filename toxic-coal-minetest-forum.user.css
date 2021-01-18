@@ -96,6 +96,10 @@ div#wrap {
 	border-color: transparent;
 }
 
+div#postingbox.panel div.inner {
+	background-color: var(--bkgd-light) !important;
+}
+
 div#message.panel div.inner {
 	background-color: var(--bkgd-light) !important;
 }
