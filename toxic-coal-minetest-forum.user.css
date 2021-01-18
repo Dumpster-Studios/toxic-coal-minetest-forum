@@ -4,55 +4,53 @@
 @version      1.0.0
 @license      CC-BY 4.0
 @preprocessor default
+@var color bkgd-light                #303030
+@var color bkgd-light-hover          #444
+@var color bkgd-medium               #202020
+@var color bkgd-medium-hover         #2f2f2f
+@var color bkgd-dark                 #171717
+@var color bkgd-dark-hover           #2f2f2f
+
+@var color text-regular              #d9d9d9
+@var color text-regular-hover        #ffffff
+@var color text-header               #eee
+@var color text-header-hover         #ffffff
+@var color text-special              #3dbb3a
+@var color text-regulargreen         #00bd0a
+@var color text-regulargreen-hover   #00ca0b
+@var color text-darkgreen            #00c40a
+@var color text-darkgreen-hover      #00d90b
+@var color text-headergreen          #0fac17
+@var color text-headergreen-hover    #17ca21
+@var color text-bigheadergreen       #13a41b
+@var color text-bigheadergreen-hover #0cb015
+
+@var color link                      #45db00
+@var color link-hover                #46dd00
+@var color link-visited              #40be00
+
+@var color border                    #797979
+@var color border-colordark          #696969
+@var color border-focus              #a4a4a4
+@var color border-hover              #ccc
+
+@var color button-color              #3f3f3f
+@var color button-grad1              #4e4e4e
+@var color button-grad2              #3a3a3a
+@var color button-hover-color        #404040
+@var color button-hover-grad1        #505050
+@var color button-hover-grad2        #414141
+
+@var color buttongreen-color         #4faf00
+@var color buttongreen-grad1         #599400
+@var color buttongreen-grad2         #417a00
+@var color buttongreen-hover-color   #68cf00
+@var color buttongreen-hover-grad1   #56a700
+@var color buttongreen-hover-grad2   #458900
+@var color iconcolor                 #e3e3e3
 ==/UserStyle== */
 
 @-moz-document domain("forum.minetest.net") {
-:root {
-    --bkgd-light: #303030;
-    --bkgd-light-hover: #444;
-    --bkgd-medium: #202020;
-    --bkgd-medium-hover: #2f2f2f;
-    --bkgd-dark: #171717;
-    --bkgd-dark-hover: #2f2f2f;
-
-    --text-regular: #d9d9d9;
-    --text-regular-hover: #ffffff;
-    --text-header: #eee;
-    --text-header-hover: #ffffff;
-    --text-regulargreen: #00bd0a;
-    --text-regulargreen-hover: #00ca0b;
-    --text-darkgreen: #00c40a;
-    --text-darkgreen-hover: #00d90b;
-    --text-headergreen: #0fac17;
-    --text-headergreen-hover: #17ca21;
-    --text-bigheadergreen: #13a41b;
-    --text-bigheadergreen-hover: #0cb015;
-
-    --link: #3dbb3a;
-    --link-hover: #3fc43c;
-    --link-visited: #3dbb3a;
-
-    --border: #797979;
-    --border-colordark: #696969;
-    --border-focus: #a4a4a4;
-    --border-hover: #ccc;
-
-    --button-color: #3f3f3f;
-    --button-grad1: #4e4e4e;
-    --button-grad2: #3a3a3a;
-    --button-hover-color: #404040;
-    --button-hover-grad1: #505050;
-    --button-hover-grad2: #414141;
-
-    --buttongreen-color: #4faf00;
-    --buttongreen-grad1: #599400;
-    --buttongreen-grad2: #417a00;
-    --buttongreen-hover-color: #68cf00;
-    --buttongreen-hover-grad1: #56a700;
-    --buttongreen-hover-grad2: #458900;
-
-    --iconcolor: #e3e3e3;
-}
 
 html {
     background-color: #000000 !important;
@@ -146,6 +144,10 @@ a {
 
 span {
     color: var(--link);
+}
+
+div.postbody div.content span {
+	color: var(--text-regular);
 }
 
 div.dropdown-contents.dropdown-nonscroll {
@@ -366,8 +368,20 @@ dt {
     color: var(--text-regulargreen) !important;
 }
 
+dt div.list-inner div.responsive-hide.left-box {
+	color: var(--text-regular);
+}
+
 dd {
     color: var(--text-regular) !important;
+}
+
+dd.posts, dd.views, dd.topics {
+    color: var(--text-regulargreen) !important;
+}
+
+time {
+	color: var(--text-special);
 }
 
 dl.details dt {
@@ -1220,6 +1234,9 @@ fieldset.quick-login input.inputbox {
 
 /* Form button styles
 ---------------------------------------- */
+a.button span {
+    color: var(--text-regular);
+}
 a.button1,
 input.button1,
 input.button3,
