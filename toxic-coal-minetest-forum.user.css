@@ -1,53 +1,53 @@
 /* ==UserStyle==
 @name         Toxic Coal Minetest Forums
 @namespace    github.com/openstyles/stylus
-@version      1.0.0
+@version      1.1.0
 @license      CC-BY 4.0
 @preprocessor default
-@var color bkgd-light                #303030
-@var color bkgd-light-hover          #444
-@var color bkgd-medium               #202020
-@var color bkgd-medium-hover         #2f2f2f
-@var color bkgd-dark                 #171717
-@var color bkgd-dark-hover           #2f2f2f
+@var color bkgd-light                "Light Background"          #303030
+@var color bkgd-light-hover          "Light Hovered Background"  #444
+@var color bkgd-medium               "Normal Background"         #202020
+@var color bkgd-medium-hover         "Normal Hovered Background" #2f2f2f
+@var color bkgd-dark                 "Dark Background"           #171717
+@var color bkgd-dark-hover           "Dark Hovered Background"   #2f2f2f
 
-@var color text-regular              #d9d9d9
-@var color text-regular-hover        #ffffff
-@var color text-header               #eee
-@var color text-header-hover         #ffffff
-@var color text-special              #3dbb3a
-@var color text-regulargreen         #00bd0a
-@var color text-regulargreen-hover   #00ca0b
-@var color text-darkgreen            #00c40a
-@var color text-darkgreen-hover      #00d90b
-@var color text-headergreen          #0fac17
-@var color text-headergreen-hover    #17ca21
-@var color text-bigheadergreen       #13a41b
-@var color text-bigheadergreen-hover #0cb015
+@var color text-regular              "Regular Text"                   #d9d9d9
+@var color text-regular-hover        "Regular Hovered Text"           #ffffff
+@var color text-header               "Header Text"                    #eee
+@var color text-header-hover         "Header Hovered Text"            #ffffff
+@var color text-special              "Special Text"                   #3dbb3a
+@var color text-regulargreen         "Regular Green Text"             #00bd0a
+@var color text-regulargreen-hover   "Regular Green Hovered Text"     #00ca0b
+@var color text-darkgreen            "Darkgreen Text"                 #00c40a
+@var color text-darkgreen-hover      "Darkgreen hovered Text"         #00d90b
+@var color text-headergreen          "Green Header Text"              #0fac17
+@var color text-headergreen-hover    "Green Header Hovered Text"      #17ca21
+@var color text-bigheadergreen       "Green Main Header Text"         #13a41b
+@var color text-bigheadergreen-hover "Green Main Header Hovered Text" #0cb015
 
-@var color link                      #45db00
-@var color link-hover                #46dd00
-@var color link-visited              #40be00
+@var color link                      "Link"         #45db00
+@var color link-hover                "Hovered Link" #46dd00
+@var color link-visited              "Visited Link" #40be00
 
-@var color border                    #797979
-@var color border-colordark          #696969
-@var color border-focus              #a4a4a4
-@var color border-hover              #ccc
+@var color border                    "Border"         #797979
+@var color border-colordark          "Dark Border"    #696969
+@var color border-focus              "Focused Border" #a4a4a4
+@var color border-hover              "Hovered Border" #ccc
 
-@var color button-color              #3f3f3f
-@var color button-grad1              #4e4e4e
-@var color button-grad2              #3a3a3a
-@var color button-hover-color        #404040
-@var color button-hover-grad1        #505050
-@var color button-hover-grad2        #414141
+@var color button-color              "Regular Button"                        #3f3f3f
+@var color button-hover-color        "Hovered Regular Button"                #404040
+@var color button-grad1              "Gradient Button Color#1"               #4e4e4e
+@var color button-grad2              "Gradient Button Color#2"               #3a3a3a
+@var color button-hover-grad1        "Hovered Gradient Button Color#1"       #505050
+@var color button-hover-grad2        "Hovered Gradient Button Color#2"       #414141
+@var color buttongreen-color         "Green Button"                          #4faf00
+@var color buttongreen-hover-color   "Hovered Green Button"                  #68cf00
+@var color buttongreen-grad1         "Green Gradient Button Color#1"         #599400
+@var color buttongreen-grad2         "Green Gradient Button Color#2"         #417a00
+@var color buttongreen-hover-grad1   "Green Hovered Gradient Button Color#1" #56a700
+@var color buttongreen-hover-grad2   "Green Hovered Gradient Button Color#2" #458900
 
-@var color buttongreen-color         #4faf00
-@var color buttongreen-grad1         #599400
-@var color buttongreen-grad2         #417a00
-@var color buttongreen-hover-color   #68cf00
-@var color buttongreen-hover-grad1   #56a700
-@var color buttongreen-hover-grad2   #458900
-@var color iconcolor                 #e3e3e3
+@var color iconcolor                 "Icon color"   #e3e3e3
 ==/UserStyle== */
 
 @-moz-document domain("forum.minetest.net") {
