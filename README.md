@@ -11,6 +11,7 @@ A green and black dark theme for the [Minetest Forums](https://forum.minetest.ne
 ## License
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-## If you for some reason don't like my amazingly perfect outstandingly dark dark theme you could also try:
+#
 
+**If you for some reason don't like my amazingly perfect outstandingly dark dark theme you could also try:**
 *  [Obsidian Minetest Forum](https://github.com/GreenXenith/obsidian-minetest-forum) by @GreenXenith
