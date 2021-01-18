@@ -53,59 +53,59 @@
 @-moz-document domain("forum.minetest.net") {
 
 html {
-    background-color: #000000 !important;
-    background-image: none;
-    background-image:
-        linear-gradient(#0000008a, #0000008a),
-        url("https://raw.githubusercontent.com/minetest/minetest_game/master/mods/default/textures/default_coal_block.png");
-    background-size: 91px;
+	background-color: #000000 !important;
+	background-image: none;
+	background-image:
+		linear-gradient(#0000008a, #0000008a),
+		url("https://raw.githubusercontent.com/minetest/minetest_game/master/mods/default/textures/default_coal_block.png");
+	background-size: 91px;
 }
 
 body {
-    background-color: #000000 !important;
-    background-image: none;
-    background-image:
-        linear-gradient(#0000008a, #0000008a),
-        url("https://raw.githubusercontent.com/minetest/minetest_game/master/mods/default/textures/default_coal_block.png");
-    background-size: 90px;
+	background-color: #000000 !important;
+	background-image: none;
+	background-image:
+		linear-gradient(#0000008a, #0000008a),
+		url("https://raw.githubusercontent.com/minetest/minetest_game/master/mods/default/textures/default_coal_block.png");
+	background-size: 90px;
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: var(--text-regular-hover);
-    background-color: var(--bkgd-light-hover);
+	color: var(--text-regular-hover);
+	background-color: var(--bkgd-light-hover);
 }
 
 ::selection {
-    color: var(--text-regular-hover);
-    background-color: var(--bkgd-light-hover);
+	color: var(--text-regular-hover);
+	background-color: var(--bkgd-light-hover);
 }
 
 body {
-    image-rendering: -moz-crisp-edges;
-    /* Firefox */
-    image-rendering: -webkit-optimize-contrast;
-    /* Webkit (non-standard naming)*/
+	image-rendering: -moz-crisp-edges;
+	/* Firefox */
+	image-rendering: -webkit-optimize-contrast;
+	/* Webkit (non-standard naming)*/
 }
 
 body * {
-    image-rendering: initial;
+	image-rendering: initial;
 }
 
 center {
-    color: var(--text-regulargreen);
+	color: var(--text-regulargreen);
 }
 
 div#wrap {
-    box-shadow: 0 0 50px 20px #000 !important;
-    border-color: transparent;
+	box-shadow: 0 0 50px 20px #000 !important;
+	border-color: transparent;
 }
 
 #page-body .inner {
-    background-color: var(--bkgd-medium) !important;
+	background-color: var(--bkgd-medium) !important;
 }
 
 #errorpage div {
-    color: var(--text-regular) !important;
+	color: var(--text-regular) !important;
 }
 
 /*
@@ -113,20 +113,20 @@ div#wrap {
 Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 h1 {
-    color: var(--text-headergreen) !important;
+	color: var(--text-headergreen) !important;
 }
 
 h2 {
-    color: var(--text-headergreen) !important;
+	color: var(--text-headergreen) !important;
 }
 
 h3 {
-    border-bottom-color: var(--border);
-    color: var(--text-headergreen) !important;
+	border-bottom-color: var(--border);
+	color: var(--text-headergreen) !important;
 }
 
 hr {
-    border-color: var(--border-color);
+	border-color: var(--border-color);
 }
 
 /*
@@ -135,15 +135,15 @@ Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
 p {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 a {
-    color: var(--text-headergreen);
+	color: var(--text-headergreen);
 }
 
 span {
-    color: var(--link);
+	color: var(--link);
 }
 
 div.postbody div.content span {
@@ -151,16 +151,16 @@ div.postbody div.content span {
 }
 
 div.dropdown-contents.dropdown-nonscroll {
-    border-color: var(--border-colordark);
+	border-color: var(--border-colordark);
 }
 
 a.username {
-    color:var(--link);
+	color:var(--link);
 }
 
 a.username-coloured {
-    font-style: italic;
-    filter: brightness(111%);
+	font-style: italic;
+	filter: brightness(111%);
 }
 
 a:hover,
@@ -174,198 +174,198 @@ a:active {
 .forumbg .header a,
 .forabg .header a,
 th a {
-    color: var(--text-bigheadergreen);
+	color: var(--text-bigheadergreen);
 }
 
 .forumbg .header a:hover,
 .forabg .header a:hover,
 th a:hover {
-    color: var(--text-bigheadergreen-hover);
+	color: var(--text-bigheadergreen-hover);
 }
 
 li {
-    border-color: var(--border-colordark) !important;
+	border-color: var(--border-colordark) !important;
 }
 
 li.header {
-    color: var(--text-headergreen) !important;
+	color: var(--text-headergreen) !important;
 }
 
 /* Notification mark read link */
 .dropdown-extended a.mark_read {
-    background-color: var(--buttongreen-color);
-    color: var(--iconcolor);
+	background-color: var(--buttongreen-color);
+	color: var(--iconcolor);
 }
 
 /* BBCode status post sidebar */
 
 .bbcode-status {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 .bbcode-status em {
-    color: var(--text-regulargreen);
+	color: var(--text-regulargreen);
 }
 
 /* Config tab below post form */
 
 .inner, .inner label {
-    color: var(--text-regular) !important;
+	color: var(--text-regular) !important;
 }
 
 /* Post body links */
 .postlink {
-    border-bottom-color: var(--link-dark);
-    color: var(--link);
+	border-bottom-color: var(--link-dark);
+	color: var(--link);
 }
 
 .postlink:visited {
-    border-bottom-color: var(--link-visited-dark);
-    color: var(--link-visited);
+	border-bottom-color: var(--link-visited-dark);
+	color: var(--link-visited);
 }
 
 .postlink:hover {
-    background-color: var(--bkgd-medium-hover);
-    color: var(--link-hover);
+	background-color: var(--bkgd-medium-hover);
+	color: var(--link-hover);
 }
 
 .signature a,
 .signature a:hover {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 /* Back to top of page */
 .top i {
-    color: #999999;
+	color: #999999;
 }
 
 /* Arrow links  */
 .arrow-left:hover,
 .arrow-right:hover {
-    color: var(--link-hover);
+	color: var(--link-hover);
 }
 
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-    background-color: var(--bkgd-dark);
-    /* 	border-color: #E6E9ED; */
+	background-color: var(--bkgd-dark);
+	/* 	border-color: #E6E9ED; */
 }
 
 .headerbar {
-    color: var(--text-header);
+	color: var(--text-header);
 }
 
 .headerbar,
 .forumbg {
-    background-color: var(--bkgd-dark-hover);
-    background-image: -webkit-linear-gradient(top, var(--bkgd-dark-hover) 0%, var(--bkgd-dark-hover) 2px, var(--bkgd-dark) 92px, var(--bkgd-dark) 100%);
-    background-image: linear-gradient(to bottom, var(--bkgd-dark-hover) 0%, var(--bkgd-dark-hover) 2px, var(--bkgd-dark) 92px, var(--bkgd-dark) 100%);
-    background-repeat: repeat-x;
+	background-color: var(--bkgd-dark-hover);
+	background-image: -webkit-linear-gradient(top, var(--bkgd-dark-hover) 0%, var(--bkgd-dark-hover) 2px, var(--bkgd-dark) 92px, var(--bkgd-dark) 100%);
+	background-image: linear-gradient(to bottom, var(--bkgd-dark-hover) 0%, var(--bkgd-dark-hover) 2px, var(--bkgd-dark) 92px, var(--bkgd-dark) 100%);
+	background-repeat: repeat-x;
 }
 
 .forabg {
-    background-color: var(--bkgd-medium);
+	background-color: var(--bkgd-medium);
 }
 
 .navbar {
-    background-color: var(--bkgd-dark-hover);
+	background-color: var(--bkgd-dark-hover);
 }
 
 .panel {
-    background-color: var(--bkgd-dark-hover);
-    border: 1px var(--border);
-    color: #28313F;
+	background-color: var(--bkgd-dark-hover);
+	border: 1px var(--border);
+	color: #28313F;
 }
 
 .post {
-    background-color: var(--bkgd-medium);
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    border-color: var(--border-hover);
+	background-color: var(--bkgd-medium);
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-color: var(--border-hover);
 }
 
 .post:target .content {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 .post:target h3 a {
-    color: var(--text-headergreen);
+	color: var(--text-headergreen);
 }
 
 .bg1 {
-    background-color: var(--bkgd-medium);
+	background-color: var(--bkgd-medium);
 }
 
 table.zebra-list tr:nth-child(odd) td,
 ul.zebra-list li:nth-child(odd) {
-    background-color: #ECF3F7;
+	background-color: #ECF3F7;
 }
 
 .bg2 {
-    background-color: var(--bkgd-medium);
+	background-color: var(--bkgd-medium);
 }
 
 table.zebra-list tr:nth-child(even) td,
 ul.zebra-list li:nth-child(even) {
-    background-color: #E1EBF2;
+	background-color: #E1EBF2;
 }
 
 .bg3 {
-    background-color: var(--bkgd-medium);
+	background-color: var(--bkgd-medium);
 }
 
 .ucprowbg {
-    background-color: #DCDEE2;
+	background-color: #DCDEE2;
 }
 
 .fieldsbg {
-    background-color: #05f;
+	background-color: #05f;
 }
 
 /* Table styles
 ----------------------------------------*/
 table.table1 thead th {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 table.table1 tbody tr {
-    border-color: #BFC1CF;
+	border-color: #BFC1CF;
 }
 
 table.table1 tbody tr:hover,
 table.table1 tbody tr.hover {
-    background-color: #CFE1F6;
-    color: #000;
+	background-color: #CFE1F6;
+	color: #000;
 }
 
 table.table1 td {
-    color: #536482;
+	color: #536482;
 }
 
 table.table1 tbody td {
-    border-top-color: #FAFAFA;
+	border-top-color: #FAFAFA;
 }
 
 table.table1 tbody th {
-    border-bottom-color: #000000;
-    color: #333333;
-    background-color: #FFFFFF;
+	border-bottom-color: #000000;
+	color: #333333;
+	background-color: #FFFFFF;
 }
 
 table.info tbody th {
-    color: #000000;
+	color: #000000;
 }
 
 /* Misc layout styles
 ---------------------------------------- */
 div.header {
-    color: var(--text-headergreen) !important;
+	color: var(--text-headergreen) !important;
 }
 
 dt {
-    color: var(--text-regulargreen) !important;
+	color: var(--text-regulargreen) !important;
 }
 
 dt div.list-inner div.responsive-hide.left-box {
@@ -373,11 +373,11 @@ dt div.list-inner div.responsive-hide.left-box {
 }
 
 dd {
-    color: var(--text-regular) !important;
+	color: var(--text-regular) !important;
 }
 
 dd.posts, dd.views, dd.topics {
-    color: var(--text-regulargreen) !important;
+	color: var(--text-regulargreen) !important;
 }
 
 time {
@@ -385,131 +385,131 @@ time {
 }
 
 dl.details dt {
-    color: #000000;
+	color: #000000;
 }
 
 dl.details dd {
-    color: #536482;
+	color: #536482;
 }
 
 .sep {
-    color: #1198D9;
+	color: #1198D9;
 }
 
 /* Icon styles
 ---------------------------------------- */
 .icon.icon-blue,
 a:hover .icon.icon-blue {
-    color: #0d7edf;
+	color: #0d7edf;
 }
 
 .icon.icon-green,
 a:hover .icon.icon-green {
-    color: #42ae42;
+	color: #42ae42;
 }
 
 .icon.icon-red,
 a:hover .icon.icon-red {
-    color: #b72828;
+	color: #b72828;
 }
 
 .icon.icon-orange,
 a:hover .icon.icon-orange {
-    color: #e66108;
+	color: #e66108;
 }
 
 .icon.icon-bluegray,
 a:hover .icon.icon-bluegray {
-    color: #7488ac;
+	color: #7488ac;
 }
 
 .icon.icon-gray,
 a:hover .icon.icon-gray {
-    color: #aeaeae;
+	color: #aeaeae;
 }
 
 .icon.icon-lightgray,
 a:hover .icon.icon-lightgray {
-    color: #e6e6e6;
+	color: #e6e6e6;
 }
 
 .icon.icon-black,
 a:hover .icon.icon-black {
-    color: #888;
+	color: #888;
 }
 
 .alert_close .icon:before {
-    background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 /* Jumpbox */
 .jumpbox .dropdown li {
-    border-top-color: #e500ff;
+	border-top-color: #e500ff;
 }
 
 .jumpbox-cat-link {
-    background-color: #0076b1;
-    border-top-color: #0076B1;
-    color: #FFFFFF;
+	background-color: #0076b1;
+	border-top-color: #0076B1;
+	color: #FFFFFF;
 }
 
 .jumpbox-cat-link:hover {
-    background-color: #12A3EB;
-    border-top-color: #12A3EB;
-    color: #FFFFFF;
+	background-color: #12A3EB;
+	border-top-color: #12A3EB;
+	color: #FFFFFF;
 }
 
 .jumpbox-forum-link {
-    background-color: #E1EBF2;
+	background-color: #E1EBF2;
 }
 
 .jumpbox-forum-link:hover {
-    background-color: #F6F4D0;
+	background-color: #F6F4D0;
 }
 
 .jumpbox .dropdown .pointer-inner {
-    border-color: #E1EBF2 transparent;
+	border-color: #E1EBF2 transparent;
 }
 
 .jumpbox-sub-link {
-    background-color: #E1EBF2;
+	background-color: #E1EBF2;
 }
 
 .jumpbox-sub-link:hover {
-    background-color: #F1F8FF;
+	background-color: #F1F8FF;
 }
 
 /* Miscellaneous styles
 ---------------------------------------- */
 .copyright {
-    color: #555555;
+	color: #555555;
 }
 
 .error {
-    color: #BC2A4D;
+	color: #BC2A4D;
 }
 
 .reported {
-    background-color: #F7ECEF;
+	background-color: #F7ECEF;
 }
 
 li.reported:hover {
-    background-color: #ECD5D8 !important;
+	background-color: #ECD5D8 !important;
 }
 .sticky,
 .announce {
-    /* you can add a background for stickies and announcements*/
-    background-color: #EDF1F5;
+	/* you can add a background for stickies and announcements*/
+	background-color: #EDF1F5;
 }
 
 div.rules {
-    background-color: #ECD5D8;
-    color: #BC2A4D;
+	background-color: #ECD5D8;
+	color: #BC2A4D;
 }
 
 p.post-notice {
-    background-color: #ECD5D8;
-    background-image: none;
+	background-color: #ECD5D8;
+	background-image: none;
 }
 
 /*
@@ -517,204 +517,204 @@ p.post-notice {
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 ul.forums {
-    background-color: var(--bkgd-medium);
-    border-color: var(--border);
+	background-color: var(--bkgd-medium);
+	border-color: var(--border);
 }
 
 ul.topiclist li {
-    color: var(--text-regular);
-    background-color: var(--bkgd-medium);
-    border-color: var(--border);
+	color: var(--text-regular);
+	background-color: var(--bkgd-medium);
+	border-color: var(--border);
 }
 
 ul.topiclist dd {
-    border-left-color: var(--border);
+	border-left-color: var(--border);
 }
 
 .rtl ul.topiclist dd {
-    border-right-color: #FFFFFF;
-    border-left-color: transparent;
+	border-right-color: #FFFFFF;
+	border-left-color: transparent;
 }
 
 li.row {
-    border-top-color: var(--border);
-    border-bottom-color: var(--border)
+	border-top-color: var(--border);
+	border-bottom-color: var(--border)
 }
 
 li.row strong {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 li.row:hover {
-    background-color: var(--bkgd-medium-hover);
+	background-color: var(--bkgd-medium-hover);
 }
 
 li.row:hover dd {
-    border-left-color: var(--border-hover);
+	border-left-color: var(--border-hover);
 }
 
 .rtl li.row:hover dd {
-    /*border-right-color: #CCCCCC;*/
-    border-left-color: transparent;
+	/*border-right-color: #CCCCCC;*/
+	border-left-color: transparent;
 }
 
 .stat-block {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-    background-color: var(--bkgd-medium);
-    color: var(--text-regular);
+	background-color: var(--bkgd-medium);
+	color: var(--text-regular);
 }
 
 /* Content container styles
 ----------------------------------------*/
 .content {
-    background-color: var(--bkgd-medium);
-    color: var(--text-regular);
+	background-color: var(--bkgd-medium);
+	color: var(--text-regular);
 }
 
 .content h2,
 .panel h2 {
-    background-color: var(--bkgd-medium);
-    color: var(--text-headergreen);
-    border-bottom-color: var(--border);
+	background-color: var(--bkgd-medium);
+	color: var(--text-headergreen);
+	border-bottom-color: var(--border);
 }
 
 dl.faq dt {
-    color: #333333;
+	color: #333333;
 }
 
 .posthilit {
-    background-color: #F3BFCC;
-    color: #BC2A4D;
+	background-color: #F3BFCC;
+	color: #BC2A4D;
 }
 
 
 /* Post signature */
 .signature {
-    border-top-color: var(--border);
+	border-top-color: var(--border);
 }
 
 /* Post noticies */
 .notice {
-    border-top-color: #CCCCCC;
+	border-top-color: #CCCCCC;
 }
 
 /* BB Code styles
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-    background-color: var(--bkgd-light);
-    border-color: var(--border);
+	background-color: var(--bkgd-light);
+	border-color: var(--border);
 }
 
 blockquote blockquote {
-    /* Nested quotes */
-    background-color: var(--bkgd-light);
+	/* Nested quotes */
+	background-color: var(--bkgd-light);
 }
 
 blockquote blockquote blockquote {
-    /* Nested quotes */
-    background-color: var(--bkgd-light);
+	/* Nested quotes */
+	background-color: var(--bkgd-light);
 }
 
 /* Code block */
 
 .codebox {
-    background-color: var(--bkgd-light);
-    border-color: var(--border);
+	background-color: var(--bkgd-light);
+	border-color: var(--border);
 }
 
 .codebox p {
-    border-bottom-color: var(--border);
+	border-bottom-color: var(--border);
 }
 
 .codebox code {
-    background-color: var(--bkgd-light);
-    color: var(--text-regular);
+	background-color: var(--bkgd-light);
+	color: var(--text-regular);
 }
 
 /* Attachments
 ----------------------------------------*/
 .attachbox {
-    background-color: var(--bkgd-light);
-    border-color: var(--border);
+	background-color: var(--bkgd-light);
+	border-color: var(--border);
 }
 
 .pm-message .attachbox {
-    background-color: var(--border-light);
+	background-color: var(--border-light);
 }
 
 .attachbox dd {
-    border-top-color: var(--border-light);
-    color: var(--text-regular) !important;
+	border-top-color: var(--border-light);
+	color: var(--text-regular) !important;
 }
 
 .attachbox p {
-    color: #666666;
+	color: #666666;
 }
 
 .attachbox p.stats {
-    color: #666666;
+	color: #666666;
 }
 
 .attach-image img {
-    border-color: #999999;
+	border-color: #999999;
 }
 
 /* Inline image thumbnails */
 dl.file dd {
-    color: #666666;
+	color: #666666;
 }
 
 dl.thumbnail img {
-    border-color: #666666;
-    background-color: #FFFFFF;
+	border-color: #666666;
+	background-color: #FFFFFF;
 }
 
 dl.thumbnail dd {
-    color: #666666;
+	color: #666666;
 }
 
 dl.thumbnail dt a:hover {
-    background-color: #EEEEEE;
+	background-color: #EEEEEE;
 }
 
 dl.thumbnail dt a:hover img {
-    border-color: #368AD2;
+	border-color: #368AD2;
 }
 
 /* Spoilers
 --------------------------------------*/
 .spoiler {
-    border-color: var(--border) !important;
-    background-color: var(--bkgd-light);
+	border-color: var(--border) !important;
+	background-color: var(--bkgd-light);
 }
 
 .spoiler_header {
-    color: var(--text-headergreen);
+	color: var(--text-headergreen);
 }
 
 .spoiler_content {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 /* Post poll styles
 ----------------------------------------*/
 fieldset.polls dl {
-    border-top-color: #DCDEE2;
-    color: #666666;
+	border-top-color: #DCDEE2;
+	color: #666666;
 }
 
 fieldset.polls dl.voted {
-    color: #000000;
+	color: #000000;
 }
 
 fieldset.polls dd div {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .rtl .pollbar1,
@@ -722,187 +722,187 @@ fieldset.polls dd div {
 .rtl .pollbar3,
 .rtl .pollbar4,
 .rtl .pollbar5 {
-    border-right-color: transparent;
+	border-right-color: transparent;
 }
 
 .pollbar1 {
-    background-color: #AA2346;
-    border-bottom-color: #74162C;
-    border-right-color: #74162C;
+	background-color: #AA2346;
+	border-bottom-color: #74162C;
+	border-right-color: #74162C;
 }
 
 .rtl .pollbar1 {
-    border-left-color: #74162C;
+	border-left-color: #74162C;
 }
 
 .pollbar2 {
-    background-color: #BE1E4A;
-    border-bottom-color: #8C1C38;
-    border-right-color: #8C1C38;
+	background-color: #BE1E4A;
+	border-bottom-color: #8C1C38;
+	border-right-color: #8C1C38;
 }
 
 .rtl .pollbar2 {
-    border-left-color: #8C1C38;
+	border-left-color: #8C1C38;
 }
 
 .pollbar3 {
-    background-color: #D11A4E;
-    border-bottom-color: #AA2346;
-    border-right-color: #AA2346;
+	background-color: #D11A4E;
+	border-bottom-color: #AA2346;
+	border-right-color: #AA2346;
 }
 
 .rtl .pollbar3 {
-    border-left-color: #AA2346;
+	border-left-color: #AA2346;
 }
 
 .pollbar4 {
-    background-color: #E41653;
-    border-bottom-color: #BE1E4A;
-    border-right-color: #BE1E4A;
+	background-color: #E41653;
+	border-bottom-color: #BE1E4A;
+	border-right-color: #BE1E4A;
 }
 
 .rtl .pollbar4 {
-    border-left-color: #BE1E4A;
+	border-left-color: #BE1E4A;
 }
 
 .pollbar5 {
-    background-color: #F81157;
-    border-bottom-color: #D11A4E;
-    border-right-color: #D11A4E;
+	background-color: #F81157;
+	border-bottom-color: #D11A4E;
+	border-right-color: #D11A4E;
 }
 
 .rtl .pollbar5 {
-    border-left-color: #D11A4E;
+	border-left-color: #D11A4E;
 }
 
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-    color: var(--text-regular);
-    border-color: #FFFFFF;
+	color: var(--text-regular);
+	border-color: #FFFFFF;
 }
 
 .pm .postprofile {
-    border-color: #DDDDDD;
+	border-color: #DDDDDD;
 }
 
 .postprofile strong {
-    color: var(--text-regular);
-    font-weight: 800;
+	color: var(--text-regular);
+	font-weight: 800;
 }
 
 dd.profile-warnings {
-    color: #BC2A4D;
+	color: #BC2A4D;
 }
 
 /* User Profile Page
 ---------------------------*/
 form#viewprofile div.panel.bg1.online div.inner {
-    background-color: #fff0 !important;
+	background-color: #fff0 !important;
 }
 /*
 --------------------------------------------------------------
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-    border-color: var(--buttongreen-grad2);
-    background-color: var(--buttongreen-color);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
-    background-image: linear-gradient(to bottom, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
-    /* W3C */
+	border-color: var(--buttongreen-grad2);
+	background-color: var(--buttongreen-color);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E9E9E9', GradientType=0); */
-    /* IE6-9 */
-    box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
-    -webkit-box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
-    color: var(--text-regular);
+	/* IE6-9 */
+	box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
+	-webkit-box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
+	color: var(--text-regular);
 }
 
 .button:hover,
 .button:focus {
-    border-color: var(--buttongreen-hover-grad2);
-    background-color: var(--buttongreen-hover-color);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
-    background-image: linear-gradient(to bottom, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
-    /* W3C */
+	border-color: var(--buttongreen-hover-grad2);
+	background-color: var(--buttongreen-hover-color);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9E9E9', endColorstr='#FFFFFF', GradientType=0); */
-    /* IE6-9 */
-    box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
-    -webkit-box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
-    text-shadow: 1px 1px 0 var(--buttongreen-hover-grad2), -1px -1px 0 var(--buttongreen-hover-grad1), -1px -1px 0 rgba(42, 188, 61, .2);
-    color: var(--text-regular);
+	/* IE6-9 */
+	box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
+	-webkit-box-shadow: 0 0 0 1px var(--buttongreen-grad1) inset;
+	text-shadow: 1px 1px 0 var(--buttongreen-hover-grad2), -1px -1px 0 var(--buttongreen-hover-grad1), -1px -1px 0 rgba(42, 188, 61, .2);
+	color: var(--text-regular);
 }
 
 
 .button .icon,
 .button-secondary {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-    color: var(--text-regular-hover);
+	color: var(--text-regular-hover);
 }
 
 .button-search:hover,
 .button-search-end:hover {
-    border-color: var(--buttongreen-grad2);
+	border-color: var(--buttongreen-grad2);
 }
 
 .caret {
-    border-color: #f00;
+	border-color: #f00;
 }
 .caret {
-    border-color: #C7C3BF;
+	border-color: #C7C3BF;
 }
 
 .contact-icons a {
-    border-color: #DCDCDC;
+	border-color: #DCDCDC;
 }
 .contact-icons a:hover {
-    background-color: #F2F6F9;
+	background-color: #F2F6F9;
 }
 
 /* Pagination
 ---------------------------------------- */
 .pagination {
-    color: var(--text-regulargreen);
+	color: var(--text-regulargreen);
 }
 
 .pagination li a {
-    background: var(--button-color);
-    filter: none;
-    border-color: var(--button-grad2);
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    color: var(--text-regular);
+	background: var(--button-color);
+	filter: none;
+	border-color: var(--button-grad2);
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: var(--text-regular);
 }
 
 .pagination li.ellipsis span {
-    background: transparent;
-    color: var(--text-regular);
+	background: transparent;
+	color: var(--text-regular);
 }
 
 .pagination li.active span {
-    background: var(--button-hover-color);
-    border-color: var(--button-hover-grad2);
-    color: var(--text-regular);
+	background: var(--button-hover-color);
+	border-color: var(--button-hover-grad2);
+	color: var(--text-regular);
 }
 
 .pagination li a:hover,
 .pagination li a:hover .icon,
 .pagination .dropdown-visible a.dropdown-trigger,
 .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-    background: var(--button-hover-color);
-    border-color: var(--button-hover-grad2);
-    filter: none;
-    color: var(--text-regular);
-    text-shadow: none;
+	background: var(--button-hover-color);
+	border-color: var(--button-hover-grad2);
+	filter: none;
+	color: var(--text-regular);
+	text-shadow: none;
 }
 
 /* Search box
@@ -910,12 +910,12 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-    border-color: #757575;
-    background: #555555;
+	border-color: #757575;
+	background: #555555;
 }
 
 .search-header {
-    box-shadow: 0 0 10px #444;
+	box-shadow: 0 0 10px #444;
 }
 
 /*
@@ -927,20 +927,20 @@ Colours and backgrounds for cp.css
 .panel-container h3,
 .panel-container hr,
 .cp-menu hr {
-    border-color: #A4B3BF;
+	border-color: #A4B3BF;
 }
 
 .panel-container .panel li.row {
-    border-bottom-color: #B5C1CB;
-    border-top-color: #F9F9F9;
+	border-bottom-color: #B5C1CB;
+	border-top-color: #F9F9F9;
 }
 
 ul {
-    border-color: var(--border-colordark) !important;
+	border-color: var(--border-colordark) !important;
 }
 
 ul.cplist {
-    border-top-color: #B5C1CB;
+	border-top-color: #B5C1CB;
 }
 
 li.header dt {
@@ -949,195 +949,195 @@ li.header dt {
 
 .panel-container .panel li.header dd,
 .panel-container .panel li.header dt {
-    color: #000000;
+	color: #000000;
 }
 
 .panel-container table.table1 thead th {
-    color: #333333;
-    border-bottom-color: #333333;
+	color: #333333;
+	border-bottom-color: #333333;
 }
 
 .cp-main .pm-message {
-    border-color: #DBDEE2;
-    background-color: #FFFFFF;
+	border-color: #DBDEE2;
+	background-color: #FFFFFF;
 }
 
 /* CP tabbed menu
 ----------------------------------------*/
 .tabs .tab > a {
-    background: var(--button-color);
-    color: var(--text-headergreen);
+	background: var(--button-color);
+	color: var(--text-headergreen);
 }
 
 .tabs .tab > a:hover {
-    background: var(--button-hover-color);
-    color: var(--text-headergreen-hover);
+	background: var(--button-hover-color);
+	color: var(--text-headergreen-hover);
 }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-    background-color: var(--button-color);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--button-grad1) 0%, var(--button-grad2) 100%);
-    background-image: linear-gradient(to bottom, var(--button-grad1) 0%, var(--button-grad2) 100%);
-    /* W3C */
+	background-color: var(--button-color);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--button-grad1) 0%, var(--button-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--button-grad1) 0%, var(--button-grad2) 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F2FF', endColorstr='#CADCEB', GradientType=0); */
-    /* IE6-9 */
-    border-color: var(--border);
-    box-shadow: 0 1px 1px var(--border) inset;
-    color: var(--text-headergreen);
+	/* IE6-9 */
+	border-color: var(--border);
+	box-shadow: 0 1px 1px var(--border) inset;
+	color: var(--text-headergreen);
 }
 
 .tabs .activetab > a:hover {
-    color: var(--text-headergreen-hover);
+	color: var(--text-headergreen-hover);
 }
 
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 .minitabs .tab > a {
-    background-color: #E1EBF2;
+	background-color: #E1EBF2;
 }
 
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
-    background-color: #F9F9F9;
-    color: #333333;
+	background-color: #F9F9F9;
+	color: #333333;
 }
 
 /* Responsive tabs
 ----------------------------------------*/
 .responsive-tab .responsive-tab-link:before {
-    border-color: #536482;
+	border-color: #536482;
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-    border-color: #D31141;
+	border-color: #D31141;
 }
 
 /* UCP navigation menu
 ----------------------------------------*/
 /* Link styles for the sub-section links */
 .navigation a {
-    color: #333;
-    background: var(--button-color) !important;
-    /* Old browsers */
-    /* FF3.6+ */
-    background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-    background: linear-gradient(to right, #B4C4D1 50%, #CADCEB 100%);
-    /* W3C */
+	color: #333;
+	background: var(--button-color) !important;
+	/* Old browsers */
+	/* FF3.6+ */
+	background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
+	background: linear-gradient(to right, #B4C4D1 50%, #CADCEB 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#CADCEB', GradientType=1); */
-    /* IE6-9 */
+	/* IE6-9 */
 }
 
 .rtl .navigation a {
-    background: #B4C4D1;
-    /* Old browsers */
-    /* FF3.6+ */
-    background: -webkit-linear-gradient(left, #CADCEB 50%, #B4C4D1 100%);
-    background: linear-gradient(to right, #CADCEB 50%, #B4C4D1 100%);
-    /* W3C */
+	background: #B4C4D1;
+	/* Old browsers */
+	/* FF3.6+ */
+	background: -webkit-linear-gradient(left, #CADCEB 50%, #B4C4D1 100%);
+	background: linear-gradient(to right, #CADCEB 50%, #B4C4D1 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CADCEB', endColorstr='#B4C4D1', GradientType=1); */
-    /* IE6-9 */
+	/* IE6-9 */
 }
 
 .navigation a:hover {
-    background: #AABAC6;
-    color: #BC2A4D;
+	background: #AABAC6;
+	color: #BC2A4D;
 /*     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
 }
 
 .navigation .active-subsection a {
-    background: #F9F9F9;
-    color: #D31141;
+	background: #F9F9F9;
+	color: #D31141;
 /*     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
 }
 
 .navigation .active-subsection a:hover {
-    color: #D31141;
+	color: #D31141;
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
-    #navigation a,
-    .rtl #navigation a {
-        background: #B2C2CF;
-    }
+	#navigation a,
+	.rtl #navigation a {
+		background: #B2C2CF;
+	}
 }
 
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-    color: #333333;
+	color: #333333;
 }
 
 .panel-container .panel {
-    background-color: var(--border-colordark);
-    padding: 0px;
-    margin: 10px;
-    border-radius: 1px;
+	background-color: var(--border-colordark);
+	padding: 0px;
+	margin: 10px;
+	border-radius: 1px;
 }
 
 .cp-main .pm {
-    background-color: var(--border-colordark);
-    padding: 0px;
-    margin: 10px;
-    border-radius: 1px;
+	background-color: var(--border-colordark);
+	padding: 0px;
+	margin: 10px;
+	border-radius: 1px;
 }
 
 /* Friends list */
 .cp-mini {
-    background-color: var(--border-colordark);
-    padding: 0px;
-    margin: 10px;
-    border-radius: 1px;
+	background-color: var(--border-colordark);
+	padding: 0px;
+	margin: 10px;
+	border-radius: 1px;
 }
 
 dl.mini dt {
-    color: #425067;
+	color: #425067;
 }
 
 /* PM Styles
 ----------------------------------------*/
 /* PM Message history */
 .current {
-    color: #000000 !important;
+	color: #000000 !important;
 }
 
 /* PM marking colours */
 .pmlist li.pm_message_reported_colour,
 .pm_message_reported_colour {
-    border-left-color: #BC2A4D;
-    border-right-color: #BC2A4D;
+	border-left-color: #BC2A4D;
+	border-right-color: #BC2A4D;
 }
 
 .pmlist li.pm_marked_colour,
 .pm_marked_colour {
-    border-color: #FF6600;
+	border-color: #FF6600;
 }
 
 .pmlist li.pm_replied_colour,
 .pm_replied_colour {
-    border-color: #A9B8C2;
+	border-color: #A9B8C2;
 }
 
 .pmlist li.pm_friend_colour,
 .pm_friend_colour {
-    border-color: #5D8FBD;
+	border-color: #5D8FBD;
 }
 
 .pmlist li.pm_foe_colour,
 .pm_foe_colour {
-    border-color: #000000;
+	border-color: #000000;
 }
 
 /* Avatar gallery */
 .gallery label {
-    background: #FFFFFF;
-    border-color: #CCC;
+	background: #FFFFFF;
+	border-color: #CCC;
 }
 
 .gallery label:hover {
-    background-color: #EEE;
+	background-color: #EEE;
 }
 
 /*
@@ -1147,132 +1147,132 @@ Colours and backgrounds for forms.css
 /* General form styles
 ----------------------------------------*/
 select {
-    border-color: var(--border);
-    background-color: var(--bkgd-light);
-    color: var(--text-regular);
+	border-color: var(--border);
+	background-color: var(--bkgd-light);
+	color: var(--text-regular);
 }
 
 label {
-    color: #425067;
+	color: #425067;
 }
 
 option.disabled-option {
-    color: graytext;
+	color: graytext;
 }
 
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-    color: #333;
+	color: #333;
 }
 
 fieldset.fields1 {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 /* Hover effects */
 fieldset dl:hover dt label {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 fieldset.fields2 dl:hover dt label {
-    color: inherit;
+	color: inherit;
 }
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-    background-color: #F2F3F3;
+	background-color: #F2F3F3;
 }
 
 /* Posting page styles
 ----------------------------------------*/
 .message-box textarea {
-    color: var(--text-regular);
-    background: var(--bkgd-medium);
+	color: var(--text-regular);
+	background: var(--bkgd-medium);
 }
 
 .message-box textarea.drag-n-drop {
-    outline-color: rgba(102, 102, 102, 0.5);
+	outline-color: rgba(102, 102, 102, 0.5);
 }
 
 .message-box textarea.drag-n-drop-highlight {
-    outline-color: rgba(17, 163, 234, 0.5);
+	outline-color: rgba(17, 163, 234, 0.5);
 }
 
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-    background-color: var(--bkgd-light);
-    border-color: var(--border);
-    color: var(--text-regular);
+	background-color: var(--bkgd-light);
+	border-color: var(--border);
+	color: var(--text-regular);
 }
 
 .inputbox:-moz-placeholder {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 .inputbox::-webkit-input-placeholder {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 
 .inputbox:hover {
-    border-color: var(--border-hover);
+	border-color: var(--border-hover);
 }
 
 .inputbox:focus {
-    border-color: var(--border-focus);
+	border-color: var(--border-focus);
 }
 
 .inputbox:focus:-moz-placeholder {
-    color: transparent;
+	color: transparent;
 }
 
 .inputbox:focus::-webkit-input-placeholder {
-    color: transparent;
+	color: transparent;
 }
 
 
 /* Form button styles
 ---------------------------------------- */
 a.button span {
-    color: var(--text-regular);
+	color: var(--text-regular);
 }
 a.button1,
 input.button1,
 input.button3,
 a.button2,
 input.button2 {
-    color: var(--text-regular);
-    background-color: var(--buttongreen-color);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
-    background-image: linear-gradient(to bottom, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
-    /* W3C */
+	color: var(--text-regular);
+	background-color: var(--buttongreen-color);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2D2D2', endColorstr='#EFEFEF', GradientType=0); */
-    /* IE6-9 */
+	/* IE6-9 */
 }
 
 a.button1,
 input.button1 {
-    border-color: var(--border);
+	border-color: var(--border);
 }
 
 input.button3 {
-    background-image: none;
+	background-image: none;
 }
 
 /* Alternative button */
 a.button2,
 input.button2,
 input.button3 {
-    border-color: var(--border);
+	border-color: var(--border);
 }
 
 /* <a> button in the style of the form buttons */
 a.button1,
 a.button2 {
-    color: #000000;
+	color: #000000;
 }
 
 /* Hover states */
@@ -1281,139 +1281,139 @@ input.button1:hover,
 a.button2:hover,
 input.button2:hover,
 input.button3:hover {
-    border-color: var(--border-hover);
-    color: var(--text-regular);
-    background-color: var(--buttongreen-hover-color);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
-    background-image: linear-gradient(to bottom, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
-    /* W3C */
+	border-color: var(--border-hover);
+	color: var(--text-regular);
+	background-color: var(--buttongreen-hover-color);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--buttongreen-hover-grad1) 0%, var(--buttongreen-hover-grad2) 100%);
+	/* W3C */
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFEFEF', endColorstr='#D2D2D2', GradientType=0); */
-    /* IE6-9 */
+	/* IE6-9 */
 }
 
 /* Focus states */
 input.button1:focus,
 input.button2:focus,
 input.button3:focus {
-    border-color: var(--border);
-    color: var(--text-regulargreen);
+	border-color: var(--border);
+	color: var(--text-regulargreen);
 }
 
 input.disabled {
-    color: #666666;
+	color: #666666;
 }
 
 /* jQuery popups
 ---------------------------------------- */
 .phpbb_alert {
-    background-color: #FFFFFF;
-    border-color: var(--border-color);
+	background-color: #FFFFFF;
+	border-color: var(--border-color);
 }
 .darken {
-    background-color: #000000;
+	background-color: #000000;
 }
 
 .dropdown-extended ul li {
-    background-color: var(--bkgd-medium);
-    border-top-color: var(--border);
+	background-color: var(--bkgd-medium);
+	border-top-color: var(--border);
 }
 
 .dropdown-extended ul li:hover {
-    background-color: var(--bkgd-medium-hover);
-    color: var(--text-regular);
+	background-color: var(--bkgd-medium-hover);
+	color: var(--text-regular);
 }
 
 .dropdown-extended .header,
 .dropdown-extended .footer {
-    border-color: var(--border);
-    color: var(--border);
+	border-color: var(--border);
+	color: var(--border);
 }
 
 .dropdown-extended .footer {
-    background-color: var(--button-color);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--button-grad1) 0%, var(--button-grad2) 100%);
-    background-image: linear-gradient(to bottom, var(--button-grad1) 0%, var(--button-grad2) 100%);
-    /* W3C */
-    text-shadow: none;
-    color: var(--text-regulargreen) !important;
+	background-color: var(--button-color);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--button-grad1) 0%, var(--button-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--button-grad1) 0%, var(--button-grad2) 100%);
+	/* W3C */
+	text-shadow: none;
+	color: var(--text-regulargreen) !important;
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F8FF', endColorstr='#CADCEB', GradientType=0); */
-    /* IE6-9 */
-    border-top-style: solid;
-    border-top-width: 1px;
+	/* IE6-9 */
+	border-top-style: solid;
+	border-top-width: 1px;
 }
 
 .dropdown-extended .header {
-    background-color: var(--bkgd-dark);
-    /* Old browsers */
-    /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, var(--bkgd-dark-hover) 0%, var(--bkgd-dark) 100%);
-    background-image: linear-gradient(to bottom, var(--bkgd-dark-hover) 0%, var(--bkgd-dark) 100%);
-    filter: brightness(120%);
-    /* W3C */
-    text-shadow: none;
-    color: var(--text-regular);
+	background-color: var(--bkgd-dark);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, var(--bkgd-dark-hover) 0%, var(--bkgd-dark) 100%);
+	background-image: linear-gradient(to bottom, var(--bkgd-dark-hover) 0%, var(--bkgd-dark) 100%);
+	filter: brightness(120%);
+	/* W3C */
+	text-shadow: none;
+	color: var(--text-regular);
 /*     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F8FF', endColorstr='#CADCEB', GradientType=0); */
-    /* IE6-9 */
+	/* IE6-9 */
 }
 
 .dropdown .pointer {
-    border-color: #B9B9B9 transparent;
+	border-color: #B9B9B9 transparent;
 }
 
 .dropdown .pointer-inner {
-    border-color: #FFF transparent;
+	border-color: #FFF transparent;
 }
 
 .dropdown-extended .pointer-inner {
-    border-color: #F1F8FF transparent;
+	border-color: #F1F8FF transparent;
 }
 
 .dropdown .dropdown-contents {
-    background: var(--bkgd-light);
-    border-color: #B9B9B9;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+	background: var(--bkgd-light);
+	border-color: #B9B9B9;
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-up .dropdown-contents {
-    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown li,
 .dropdown li li {
-    border-color: #DCDCDC;
+	border-color: #DCDCDC;
 }
 
 .dropdown li.separator {
-    border-color: #DCDCDC;
+	border-color: #DCDCDC;
 }
 
 /* Notifications
 ---------------------------------------- */
 .notification_list p.notification-time {
-    color: var(--text-regulargreen);
+	color: var(--text-regulargreen);
 }
 
 div#notification_list.dropdown.dropdown-extended.notification_list div.dropdown-contents.dropdown-nonscroll div.footer a {
-    background-image: linear-gradient(to bottom, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
+	background-image: linear-gradient(to bottom, var(--buttongreen-grad1) 0%, var(--buttongreen-grad2) 100%);
 }
 
 div#notification_list.dropdown.dropdown-extended.notification_list div.dropdown-contents.dropdown-nonscroll div.footer a span {
-    color: var(--text-header);
-    font-weight: bold;
+	color: var(--text-header);
+	font-weight: bold;
 }
 
 li.notification-reported strong,
 li.notification-disapproved strong {
-    color: #D31141;
+	color: #D31141;
 }
 
 .badge {
-    background-color: #D31141;
-    color: #ffffff;
+	background-color: #D31141;
+	color: #ffffff;
 }
 
 
@@ -1425,18 +1425,18 @@ li.notification-disapproved strong {
 .button .icon,
 blockquote cite:before,
 .uncited:before {
-    display: inline-block;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
-    font-family: FontAwesome;
-    font-size: 14px;
-    line-height: 1;
-    text-rendering: auto;
-    /* optimizelegibility throws things off #1094 */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: var(--iconcolor);
+	display: inline-block;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: FontAwesome;
+	font-size: 14px;
+	line-height: 1;
+	text-rendering: auto;
+	/* optimizelegibility throws things off #1094 */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: var(--iconcolor);
 }
 
 .announce_read, .global_read		{background-image: linear-gradient(#00000017, #00000017), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAADTElEQVRoQ93Yz6sOURgH8MtFWEgsFFHIRhYWdigsbMQfoMg/YEGxtpDIwrW1UWyEHWtbKVGyIFJICZFI+fn6fq/5Xmee+33HzBm9zvXUp3nnOeednsecOfNeY4PB4L9gkzI+8WBQilhbZJPuQqWItcq0hPtyiWLdtZM2X/hX/lTb0InKl6SpRjtJuRKldaa1Ng6WytU6dKBkrt6hA6WLNdvkTBBrtskcLqqxWdVxPpyCF/AKjsM8mLpGF7Fmm8zhohpTI5eA8Q2+//o4OAlT1+gi1myTOVwgP16NbwXGV/gBauQ51K7TVqzZJnO4QH5ONb4XGGyEwWYYT6F2nbZizTaZwwXyuiPbgMFl9QXU0BmoXaetWLNN5kgjjOkZuQgMNsO4Agshzm8l1myTOUwDxKU1OznfDAdhC7BBNdlZrNkm/wIWnzawGFbDgiTH8aIb0XPBIx/yG/AG+Gx8hrOQ3YDEmm2yB+1S6+E+MLTVMvR5N3Cemu4s1myTmdTETuD2yovxPcFgA8zxrjCOQvqdzmLNNtnDdmCcBp6fmzz7vd3qeAA4XmQjG4H/8hPVObfWR8DQHWHw8wbgnHRD6CTWbJOZnsC15HwXMPRc6HgTON7rgY8122SmPcBtVgVeBoZegFpWh4Dj2cuKYs022YN2Ib4zPgKDS0rL6hOsAc7JXlYUa7bJTGxibvX5CDB0F3RXrgPHezVBsWabzKQlxeMdYOi5UCN8QXLO5J0b8rOmlVizTWbSstoBDC0nHV/CUtDcYh92NXIBGLoLOp4HjnP59WqCYs022cMyeAuM9L3B4Btf81bCkuS8s1izTfawHxi6C2riIehvj1XwHrhdx++3Fmu2yR6uAkONaNc6ARzne+Yx3INit99F8AwYcVlxA+BzcRd4N9YCv1PkT5RNoMIVaoh/k7DJ16DfWdocssSabTITH2YGlxUbYFP8rOZuwQrg3F5NUKzZJjOtgw/AYCO6G+/gMHAZcXn1boJizTbZwz7g/1VxCd2GY7AcOMYGas9EqW/2kYo122TpXL1DB0rm6m0cLJWrtXGwRGmdaa2tJpWiqb7GiZLOGTVXD8V5tRNyXypNrJmmJcRdoASxTrHJyF1wVGItw9jkzDMY+wnzLWDq5fqj/QAAAABJRU5ErkJggg=='); }
