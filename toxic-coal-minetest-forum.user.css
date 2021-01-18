@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Toxic Coal Minetest Forums
 @namespace    github.com/openstyles/stylus
-@version      1.1.1
+@version      1.1.2
 @homepageURL  https://github.com/Dumpster-Studios/toxic-coal-minetest-forum
 @updateURL    https://raw.githubusercontent.com/Dumpster-Studios/toxic-coal-minetest-forum/main/toxic-coal-minetest-forum.user.css
 @author       LoneWolfHT
@@ -83,13 +83,6 @@ body {
 	background-color: var(--bkgd-light-hover);
 }
 
-body {
-	image-rendering: -moz-crisp-edges;
-	/* Firefox */
-	image-rendering: -webkit-optimize-contrast;
-	/* Webkit (non-standard naming)*/
-}
-
 body * {
 	image-rendering: initial;
 }
@@ -101,6 +94,14 @@ center {
 div#wrap {
 	box-shadow: 0 0 50px 20px #000 !important;
 	border-color: transparent;
+}
+
+div#message.panel div.inner {
+	background-color: var(--bkgd-light) !important;
+}
+
+div#message.panel div.inner h2.message-title {
+	background-color: var(--bkgd-light) !important;
 }
 
 #page-body .inner {
