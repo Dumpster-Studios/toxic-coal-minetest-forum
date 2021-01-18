@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         Toxic Coal Minetest Forums
+@namespace    github.com/openstyles/stylus
+@version      1.0
+@license      CC-BY 4.0
+@preprocessor default
+==/UserStyle== */
+
 @-moz-document domain("forum.minetest.net") {
 :root {
     --bkgd-light: #303030;
