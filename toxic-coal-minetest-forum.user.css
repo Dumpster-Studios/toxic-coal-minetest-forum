@@ -35,7 +35,7 @@
 @var color border-darkest            "Darkest Border" #353535
 @var color border-focus              "Focused Border" #a4a4a4
 @var color border-hover              "Hovered Border" #ccc
-@var color bordergreen               "Green border"   rgb(63, 117, 0)
+@var color bordergreen               "Green border"   #3f7500
 
 @var color button-color              "Regular Button"                        #3f3f3f
 @var color button-hover-color        "Hovered Regular Button"                #404040
