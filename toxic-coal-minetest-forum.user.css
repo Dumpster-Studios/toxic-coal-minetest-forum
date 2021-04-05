@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Toxic Coal Minetest Forums
 @namespace    github.com/openstyles/stylus
-@version      1.1.7
+@version      1.2.0
 @homepageURL  https://github.com/Dumpster-Studios/toxic-coal-minetest-forum
 @updateURL    https://raw.githubusercontent.com/Dumpster-Studios/toxic-coal-minetest-forum/main/toxic-coal-minetest-forum.user.css
 @author       LoneWolfHT
@@ -11,14 +11,15 @@
 @var color bkgd-light-hover          "Light Hovered Background"                 #444
 @var color bkgd-medium               "Normal Background"                        #222
 @var color bkgd-dark                 "Dark Background"                          #111
-@var color bkgd-special-user         "Background for special users like admins" #272727
+
+@var color username-special-color     "Special Username Background" #272727
+@var color username-color             "Regular Username"            #40b50a
 
 @var color text-regular              "Regular Text"                   #d9d9d9
 @var color text-regular-hover        "Regular Hovered Text"           #ffffff
 @var color text-header               "Header Text"                    #eee
 @var color text-header-hover         "Header Hovered Text"            #ffffff
 @var color text-special              "Special Text"                   #288526
-@var color text-username             "Username Text"                  #40b50a
 @var color text-regulargreen         "Regular Green Text"             #00bd0a
 @var color text-regulargreen-hover   "Regular Green Hovered Text"     #00ca0b
 @var color text-darkgreen            "Darkgreen Text"                 #00c40a
@@ -183,7 +184,7 @@
 	}
 
 	a.username {
-		color: var(--text-username);
+		color: var(--username-color);
 	}
 
 	a.username-coloured {
@@ -498,7 +499,8 @@
 	}
 
 	.alert_close .icon:before {
-		background-color: #FFFFFF;
+		color: var(--buttongreen-color);
+		background-color: var(--iconcolor);
 	}
 
 	/* Jumpbox */
@@ -1412,9 +1414,25 @@
 	/* jQuery popups
 	---------------------------------------- */
 	.phpbb_alert {
-		background-color: #FFFFFF;
-		border-color: var(--border-color);
+		background-color: var(--bkgd-light);
+		border-color: var(--border) !important;
 	}
+	
+	.alert_title {
+		font-size: 150%;
+	}
+	
+	.alert_text {
+		color: var(--text-regular) !important;
+	}
+	
+	.loading_indicator {
+		background-image: url(https://github.com/Dumpster-Studios/toxic-coal-minetest-forum/blob/main/assets/loading.gif?raw=true);
+		filter: brightness(130%);
+		background-color: #0a470b;
+		background-size: 80%;
+	}
+	
 	.darken {
 		background-color: #000000;
 	}
