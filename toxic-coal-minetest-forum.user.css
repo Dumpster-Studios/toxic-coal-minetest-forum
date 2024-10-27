@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name         Toxic Coal Minetest Forums
+@name         Toxic Coal Luanti Forums
 @namespace    github.com/openstyles/stylus
-@version      1.2.1
+@version      1.2.2
 @homepageURL  https://github.com/Dumpster-Studios/toxic-coal-minetest-forum
 @updateURL    https://raw.githubusercontent.com/Dumpster-Studios/toxic-coal-minetest-forum/main/toxic-coal-minetest-forum.user.css
 @author       LoneWolfHT
@@ -56,7 +56,7 @@
 @var color iconcolor                 "Icon color"   #e3e3e3
 ==/UserStyle== */
 
-@-moz-document domain("forum.minetest.net") {
+@-moz-document domain("forum.minetest.net"), domain("forum.luanti.org") {
 	html {
 		background-color: #000000 !important;
 		background-image: none;
